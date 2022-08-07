@@ -1,4 +1,4 @@
-# Function to get the nearest factorial to a number including its offset - By Dickson Agyei
+# Function to get the nearest factorial to a number including its offset(difference) - By Dickson Agyei
 def nearest_factorial(num):
     steps = []
     n = 1
@@ -22,6 +22,5 @@ def nearest_factorial(num):
             n += 1
 
     return steps
-
 
 print(nearest_factorial(int(input("Enter Number: "))))
